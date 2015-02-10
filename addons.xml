@@ -113,7 +113,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.koditools" name="K0di Tools" version="1.1.6" provider-name="Anonymous">
+<addon id="plugin.video.xbmctools" name="K0di Tools" version="1.1.6" provider-name="Anonymous">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
