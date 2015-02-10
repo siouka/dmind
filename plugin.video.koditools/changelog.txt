@@ -1,0 +1,75 @@
+﻿Versão 1.1.6:
+Adicionado 'Forçar openelec' em PC
+Nome do addon alterado para "K0di Tools"
+Adicionado suporte para OSx (Kodi)
+Adicionada opção para forçar shutdown
+
+Versão 1.1.5:
+Fix no "hack" para Android
+Adicionado suporte a SPMC
+Outras melhorias
+
+Versão 1.1.4:
+Addon reescrito - Agora pode ser chamado por outros addons
+Adicionado "hack" android - librtmp copiado sempre que se reinicia o Android
+Adicionada opção para actualizar o librtmp automaticamente
+Criado service.py
+Múltiplas melhorias
+
+Versão 1.1.3:
+Agora o addon guarda a localização do librtmp, de modo a que fique mais rápido
+Já não pede password sudo em sistemas sem password
+Fix Download APK
+Várias melhorias
+
+Versão 1.1.2:
+Fix Android - Addon não funcionava em alguns aparelhos
+Melhoria em OSx - O addon agora obtém automaticamente a versão do XBMC
+Limpeza do código
+Vários fixes/melhorias
+
+Versão 1.1.1:
+Fix para arquitecturas mac OS x64
+
+Versão 1.1.0:
+Adicionado suporte a Openelec (PC)
+Adicionada opção para forçar Openelec (Raspberry)
+
+Versão 1.0.9:
+macOS fix
+
+Versão 1.0.8:
+Adicionado suporte a macOS
+Melhorias para openelec
+
+Versão 1.0.7:
+Adicionada opção de download de apk para android
+Adicionado verificador de versão do librtmp ao início
+
+Versão 1.0.6:
+Adicionado MD5 Checker - Verifica a versão actual
+
+Versão 1.0.5:
+Fix para users com caracter especial
+
+Versão 1.0.4:
+Adicionada tradução / Added translation
+Minor fixes
+
+Versão 1.0.3:
+Adicionado suporte a iOS
+Força permissões em todos os OS's
+Adicionada opção de Update/Restore
+
+Versão 1.0.2:
+Adicionado suporte a raspberry - Openelec inclusive
+Corrigido bug em que era impossível actualizar librtmp em Linux
+Melhoramento na actualização do librtmp em Windows
+
+Versão 1.0.1:
+Adicionado aviso para versões Helix (não instalar)
+Adicionado suporte a Linux
+
+Versão 1.0.0:
+Primeira versão
+Suporte a Android e Windows

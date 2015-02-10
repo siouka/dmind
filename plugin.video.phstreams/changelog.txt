@@ -1,0 +1,33 @@
+V1.3.5
+Bug Fixes
+
+V1.3.4
+Addition of ind.fanart methods
+add Sort Methods
+Repaired failing jar file for NHL
+
+V1.3.3
+Bug fix
+
+V1.3.2
+Repaired a few resolvers
+Improved Download Status notifiers
+Other bug fixes..
+
+V1.3.0
+Added Trailer Search
+Fixed Download Function ( SOME THINGS WONT DL YET)
+BIG Thanks to Crzen for some of the Download Code !!
+Other fixes 
+
+V1.2.0
+Added MetaData
+Added Downloads (Beta)
+Add Cache systems to prevent Haddon crash when Playlist server is down
+Added more resolvers
+Added NHL 
+Other GUI Enhancements 
+Bug Fixes
+
+V1.1.5
+Initial Release

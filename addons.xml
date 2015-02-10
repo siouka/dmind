@@ -14,6 +14,49 @@
 	</extension>
 </addon>
 
+    <addon id="plugin.program.addoninstaller" version="1.2.0"
+    	name="Addon Installer" provider-name="tvaddons.ag, Blazetamer, TheHighway">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.addon.common" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Addon Browser</summary>
+        <description>Its like an App Store where you'll find Addons for Kodi, and everything is free!</description>
+        <disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <forum>http://forums.tvaddons.ag/forums/156-ADDON-INSTALLER</forum>
+        <website>http://addons.tvaddons.ag/</website>
+        <source></source>
+        <email></email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.football.today" name="Football Today" version="3.0.0" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" optional="true"/>
+		<import addon="script.module.parsedom" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Football on demand</summary>
+		<description lang="en">Visit TVADDONS.ag for support</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
+		<source>https://offshoregit.com/lambda81/lambda-addons</source>
+		<website>https://offshoregit.com/lambda81/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.funvideos" name="Fun Videos" version="0.3.1" provider-name="Mafarricos">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
@@ -46,6 +89,100 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.genesis" name="Genesis" version="3.5.2" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.metahandler" optional="true"/>
+		<import addon="script.module.simplejson" optional="true"/>
+		<import addon="script.module.parsedom" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The origins of streaming</summary>
+		<description lang="en">Visit TVADDONS.ag for support</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
+		<source>https://offshoregit.com/lambda81/</source>
+		<website>https://offshoregit.com/lambda81/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.xbmctools" name="K0di Tools" version="1.1.6" provider-name="Anonymous">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup">
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">K0di Tools</summary>
+    <description lang="pt">Algumas ferramentas necessarias.
+
+	FAQ: http://goo.gl/9S2CD3 </description>
+    <description lang="en">Some necessary tools.
+
+	FAQ: http://goo.gl/9S2CD3</description>
+	<disclaimer lang="pt">Cada um usa este addon a sua responsabilidade.</disclaimer>
+	<disclaimer lang="en">Use this addon at your own risk.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.phstreams"
+	name="Phoenix"
+	version="1.3.5"
+	provider-name="Blazetamer">
+  <requires>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.metahandler" version="2.3.1" />
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="script.module.simple.downloader" version="1.9.4" />
+    <import addon="script.module.pyxbmct" version="1.1.4" />
+    <import addon="script.module.beautifulsoup"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Phoenix</summary>
+    <description lang="en">Discover Great Streaming Playlists Exclusive to XBMC, Please visit www.tvaddons.ag for help and support!</description>
+    <platform>all</platform>
+    <forum> http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
+    <website>http://www.tvaddons.ag/</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.replaypt" name="Replay PT" version="0.2.1" provider-name="techdealer">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Replay PT</summary>
+    <description lang="en">Replay PT é um agregador de episódios de novelas e séries em língua portuguesa.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.tvpor"
        name="TV Portuguesa"
        version="0.4.01"
@@ -66,6 +203,61 @@ Visita os sites oficiais.
 www.desportogratis.com, www.rtp.pt, www.tugastream.com, www.tvfree.me, www.tvgente.eu, www.tvdez.com</description>
         <disclaimer>O autor deste addon NAO e responsavel pelo conteudo dos streams.</disclaimer>
         <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.veetle" version="0.3.1" name="Veetle" provider-name="fightnight (creator: t0mm0)">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+        <import addon="script.common.plugin.cache" version="1.3.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point= "xbmc.addon.metadata">
+        <summary lang="el">Αναζήτηση και ρεύμα από veetle.com</summary>
+		<summary lang="en">Browse and stream from veetle.com</summary>
+		<summary lang="pt">Veja canais de veetle.com</summary>
+		<summary lang="pt_BR">Veja canais de veetle.com</summary>
+        <description lang="el">Επιτρέπει βλέποντας ρέματα veetle.com που flash ενεργοποιηθεί.</description>
+		<description lang="en">Enables watching streams on veetle.com that are flash enabled.</description>
+		<description lang="pt">Permite visualizar streams de veetle.com que necessitam de flash.</description>
+		<description lang="pt_BR">Permite visualizar streams de veetle.com que necessitam de flash.</description>
+		<disclaimer lang="el">Δεν λειτουργεί για τις ροές 'HD' που απαιτούν λήψη λογισμικού.</disclaimer>
+        <disclaimer lang="en">Does not work for 'HD' streams which require a software download.</disclaimer>
+		<disclaimer lang="pt">Não funciona para streams 'HD' que necessitam do download de software.</disclaimer>
+		<disclaimer lang="pt_BR">Não funciona para streams 'HD' que necessitam do download de software.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.xbmctorrent" name="XBMCtorrent" version="0.6.5" provider-name="steeve">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.repository" name="XBMCtorrent Autoupdate Repository">
+        <info compressed="false">http://xbmctorrent.herokuapp.com/addons.xml</info>
+        <checksum>http://xbmctorrent.herokuapp.com/addons.xml.md5</checksum>
+        <datadir zip="true">http://xbmctorrent.herokuapp.com/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <website><![CDATA[http://j.mp/xbmctorrent]]></website>
+        <forum><![CDATA[http://j.mp/xbmctorrent]]></forum>
+        <source><![CDATA[https://github.com/steeve/xbmctorrent]]></source>
+        <language></language>
+        <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
+        <summary><![CDATA[XBMCtorrent: Torrent streaming for XBMC.]]></summary>
+        <description><![CDATA[Watch torrents directly from XBMC, without waiting.
+
+To get the latest updates:
+Twitter: twitter.com/xbmctorrent
+Facebook: facebook.com/xbmctorrent
+XBMC HUB: j.mp/xbmctorrent]]></description>
     </extension>
 </addon>
 </addons>

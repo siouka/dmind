@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.replaypt" name="Replay PT" version="0.2.1" provider-name="techdealer">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Replay PT</summary>
+    <description lang="en">Replay PT é um agregador de episódios de novelas e séries em língua portuguesa.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

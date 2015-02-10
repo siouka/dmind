@@ -1,0 +1,142 @@
+Versão 0.2.1 - (13/06/2014)
+* Novelas tvi: adicionado "Mulheres" e "Feitiço de Amor"
+* Site vernovelas.com.br (Brasil): corrigido
+* Site documentariosvarios.wordpress.com (Brasil): adicionado no menu o número de items que cada categoria tem
+* Site podflix.com.br (Brasil): corrigido
+* Outras correcções
+
+Versão 0.2.0 - (26/05/2014)
+* Site novelasgravadas.com (Brasil):
+  -Corrigidas as expressões regulares para funcionarem no novo template
+  -Adicionado suporte ao novo player html5
+* Site assistirnovelas.tv (Brasil):
+  -Adicionado suporte ao novo player html5
+* Corrigida Playlist "Série 37" (tvi) de mary1sofiachannel
+
+Versão 0.1.9 - (08/05/2014)
+* Função de listar podcasts: adicionada ocultação da timezone também em datas EDT
+* Removida dependência desnecessária: urlresolver
+* Alterações na zona de Portugal:
+  -Removido "Masterchef Portugal" (tvi), visto que os vídeos foram apagados e não foram adicionados novos
+  -Adicionado "Morangos com Açucar 2", "A Jóia de África", "O Teu Olhar" e "Anjo Selvagem"
+  -Adicionadas novas fontes
+  -Uniformização do icon de pasta nas pastas de Podcasts
+* Alterações na zona do Brail:
+  -Site assistirnovelas.tv: adicionado suporte ao novo tipo de player externo carregado via js
+  -Adicionado suporte ao site curtadoc.tv (curtas metragens)
+  -Adicionado suporte ao site podflix.com.br (podcasts br)
+
+Versão 0.1.8 - (24/04/2014)
+* Adicionado suporte à listagem e reprodução de podcasts
+* Alterações na zona de Portugal:
+  -Pasta "Rádio" renomeada para "Rádio e Podcasts"
+  -Adicionados diversos podcasts das rádios nacionais tais como: M80, Comercial, Renascença, RDP, TSF...
+* Alterações na zona do Brail:
+  -Corrigido site webdocumentarios.com
+
+Versão 0.1.7 - (16/04/2014)
+* Alterações na zona de Portugal:
+  -Adicionado "Melhor do que Falecer" a "Séries TVI"
+* Alterações na zona do Brail:
+  -Adicionado suporte ao site webdocumentarios.com
+
+Versão 0.1.6 - (15/04/2014)
+* Arquivo Sic Corrigido
+* Organização do código do addon melhorada e Guideline actualizada, para uma mais fácil manutenção
+* Outras modificações
+
+Versão 0.1.5 - (14/04/2014)
+* Alterações na zona de Portugal:
+  -Daniel Portela on Dailymotion: adicionadas novas playlists de programas da sic
+* Alterações na zona do Brasil:
+  -Site novelasgravadas.com:
+    -Melhorada a forma como as categorias são mostradas e adicionado suporte ao novo tipo de player externo carregado via js
+    -Icon actualizado
+
+Versão 0.1.4 - (12/04/2014)
+* Alterações na zona de Portugal:
+  -Adicionado "Giras e Falidas" (tvi) e "A Outra" (tvi) a partir da fonte TVStory Portugal
+  -Adicionado "Um Minuto por Sua Casa" à pasta "Outros"
+  -Filmesportugueses.com: adicionada barra de progresso na procura de fontes
+* Alterações na zona do Brasil:
+  -Em todos os sites suportados foi melhorada a procura de fontes, com inserção de barra de progresso, info se não houver fontes suportadas e melhoria do código
+  -DocVerdade: icon redesenhado
+
+Versão 0.1.3 - (02/04/2014)
+* Alterações na zona de Portugal:
+  - Adicionado suporte ao site filmescompletos.com (curtas metragens)
+* Alterações na zona do Brasil:
+  - Adicionado suporte ao site docverdade.blogspot.com
+
+Versão 0.1.2 - (01/04/2014)
+* Alterações na zona de Portugal:
+  -Adicionado "ZWAME News" à pasta "Outros"
+* Alterações na zona do Brasil:
+  -Nome das pastas agora contêm também o domínio dos sites em vez de apenas o nome
+  -Adicionado suporte ao site documentariosvarios.wordpress.com
+  -Adicionado suporte ao site todosdocumentarios.blogspot.com
+
+Versão 0.1.1 - (30/03/2014)
+* Bug corrigido na função de listar 2 playlists do youtube
+* Ids das funções de listar conteúdo do Dailymotion e Sapo Videos redestribuídos, tendo agora cada função 100 ids reservados
+* Alterações na zona de Portugal:
+  -Corrigidos bugs na fonte TVStory e código optimizado
+  -Fonte "FNunes94 channel": Novela "Doce Fugitiva" separada em 2 playlists e adicionada série "O Bairro"
+
+Versão 0.1.0 - (28/03/2014)
+* Adicionado suporte à listagem de conteúdos do Sapo Videos
+* Alterações na zona de Portugal:
+  -Fonte Jottaseries removida, visto que deixou de estar disponível
+  -Adicionados novos programas
+  -Adicionadas novas fontes
+  -Ordem dos menus alterada e adicionadas novas categorias
+  -"Isto é Matemática" movido de "Séries sic" para "Outros"
+  -Adicionado suporte ao arquivo sic no Sapo Videos
+
+Versão 0.0.9
+* Alterações na zona de Portugal:
+  -Adicionados novos programas: Masterchef Portugal (tvi), A Tua Cara Não Me É Estranha: Kids (tvi), Gabriela (sic)
+  -Adicionadas novas fontes
+* Alterações na zona do Brasil:
+  -Adicionado suporte ao site assistirnovelas.tv
+  -Adicionado suporte ao site vernovelas.com.br
+
+Versão 0.0.8
+* Pequena limpeza de código na parte do Brasil
+* G1novelas e maisnovelas: adicionado suporte a videos do vk.com e sbt.com.br
+* Fonte il0veit.com corrigida e adicionado "Morangos com Açucar 3" a partir dela
+
+Versão 0.0.7
+* Alterações na parte do Brasil:
+  -Adicionado suporte ao site maisnovelas.net
+  -Adicionado suporte ao site novelasgravadas.com
+  -Corrigido bug no g1novelas: aceder à página seguinte tinha deixado de funcionar 
+
+Versão 0.0.6
+* Pequenos fixes na fonte jottaseries
+
+Versão 0.0.5
+* Corrigida fonte jottaseries
+* Adicionada uma caixa de selecção para escolher a qualidade dos videos do server VK.COM
+
+Versão 0.0.4
+* Minor update: adicionadas algumas fontes novas
+
+Versão 0.0.3
+* Fonte TVStory corrigida
+* Adicionadas novas novelas e séries portuguesas: Beijo do Escorpião, Telerural, Lua Vermelha, Isto é Matemática
+* Adicionadas novas fontes de novelas portuguesas
+* Adicionado suporta à listagem de conteúdo do dailymotion na versão portuguesa
+* Removida fonte "novelaseséries channel" da versão portuguesa, visto que o canal foi apagado
+* Api do youtube reescrita usando json
+
+Versão 0.0.2
+* Addon mergido com g1novelas de enen92/Mafarricos
+* Adicionadas mais novelas e fontes na versão portuguesa
+* Corrigido bug no uso da api do youtube
+* Logo re-desenhado e descrição actualizada
+* Novelas e séries portuguesas ordenadas por ordem alfabética
+* Videos por página aumentados para 15 na versão portuguesa, quando se obtem conteúdo de canais do youtube
+
+Versão 0.0.1
+* Primeiro release do addon

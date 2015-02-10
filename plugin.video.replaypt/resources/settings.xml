@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+   <category label="Definicoes gerais">
+      <setting label="Abrir por pré-definição" type="enum" id="startup" default="0" values="Lista de países|Portugal|Brasil"/>
+   </category>
+</settings>
