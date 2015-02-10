@@ -1,0 +1,82 @@
+<window>
+    <defaultcontrol always="true">2001</defaultcontrol>
+    <allowoverlay>no</allowoverlay>
+	<include>dialogeffect</include>
+
+    <!--<backgroundcolor>ff000000</backgroundcolor>-->
+
+
+    
+    <controls>
+		<control type="group">
+			<posx>30</posx>
+			<posy>60</posy>
+			<control type="label" id="9999">
+				<description>Mensagem Loading</description>
+			</control>
+			
+			<control type="image">
+				<posx>180</posx>
+				<posy>70</posy>
+				<width>860</width><!--710-->
+				<height>425</height>
+				<texture>lateral-fundo.png</texture>
+			</control>
+			<control type="image">
+				<posx>180</posx>
+				<posy>70</posy>
+				<width>860</width><!--710-->
+				<height>425</height>
+				<texture>lateral-fundo.png</texture>
+			</control>
+			<control type="image">
+				<posx>180</posx>
+				<posy>70</posy>
+				<width>860</width><!--710-->
+				<height>425</height>
+				<texture>lateral-fundo.png</texture>
+			</control>
+			<control type="label" id="3000">
+				<description>Frase loading</description>
+				<posx>180</posx>
+				<posy>120</posy>
+				<width>850</width>
+				<height>500</height>
+				<font>font13</font>
+				<align>center</align>
+				<label>[B][COLOR red]Nova actualização de LibRTMP[/COLOR] [COLOR blue]disponível e obrigatória![/COLOR][/B][CR][CR][B]Nova actualização![/B] 8 de Fevereiro de 2015[CR][CR]Necessita de actualizar manualmente o ficheiro LibRTMP para que os canais[CR]funcionem. Quer em IPTV, TV Portuguesa ou qualquer outro addon, é obrigatório.[CR][CR] Visita http://bit.ly/actualizar_lib para instruções de actualização.</label>
+				<textcolor>white</textcolor>
+				<shadowcolor>AA000000</shadowcolor>
+				<visible>Control.IsVisible(9999)</visible>
+			</control>
+			<control type="button" id="2001">
+				<posx>450</posx>
+				<posy>350</posy>
+				<width>300</width>
+				<height>40</height>
+				<texturefocus>focado.png</texturefocus>
+				<texturenofocus>nofocado.png</texturenofocus>
+				<bordertexture border="5">nofocado.png</bordertexture>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>font13</font>
+				<textcolor>gold</textcolor>
+				<label>OK Compreendi!</label>
+				<visible>Control.IsVisible(9999)</visible>
+			</control>
+			<control type="label" id="3000">
+				<description>Frase loading</description>
+				<posx>1000</posx>
+				<posy>410</posy>
+				<width>600</width>
+				<height>500</height>
+				<font>font6</font>
+				<align>right</align>
+				<label>[I]Assim que actualize o ficheiro librtmp, pode[CR]remover este aviso nas definições do addon[/I]</label>
+				<textcolor>white</textcolor>
+				<shadowcolor>AA000000</shadowcolor>
+				<visible>Control.IsVisible(9999)</visible>
+			</control>
+		</control>
+    </controls>
+</window>

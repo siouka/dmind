@@ -1,0 +1,62 @@
+<window>
+    <defaultcontrol always="true">2001</defaultcontrol>
+    <allowoverlay>no</allowoverlay>
+	<include>dialogeffect</include>
+
+    <!--<backgroundcolor>ff000000</backgroundcolor>-->
+
+
+    
+    <controls>
+		<control type="group">
+			<posx>30</posx>
+			<posy>60</posy>
+			<control type="label" id="9999">
+				<description>Mensagem Loading</description>
+			</control>
+			
+			<control type="image">
+				<posx>180</posx>
+				<posy>70</posy>
+				<width>860</width><!--710-->
+				<height>400</height>
+				<texture>lateral-fundo.png</texture>
+			</control>
+			<control type="image">
+				<posx>180</posx>
+				<posy>70</posy>
+				<width>860</width><!--710-->
+				<height>400</height>
+				<texture>lateral-fundo.png</texture>
+			</control>
+			<control type="label" id="3000">
+				<description>Frase loading</description>
+				<posx>180</posx>
+				<posy>120</posy>
+				<width>850</width>
+				<height>500</height>
+				<font>font13</font>
+				<align>center</align>
+				<label>[B]Este addon TV Portuguesa é GRATUITO![/B][CR][CR]Se pagas ou pagaste por este serviço, reclama e denuncia.[CR][CR]Basta seguir o link dos addons e seguir o tutorial de instalação.[CR][CR][B]XBMC:[/B] http://www.xbmc.org[CR][B]Addons:[/B] http://bit.ly/fightnightaddons</label>
+				<textcolor>white</textcolor>
+				<shadowcolor>AA000000</shadowcolor>
+				<visible>Control.IsVisible(9999)</visible>
+			</control>
+			<control type="button" id="2001">
+				<posx>450</posx>
+				<posy>350</posy>
+				<width>300</width>
+				<height>40</height>
+				<texturefocus>focado.png</texturefocus>
+				<texturenofocus>nofocado.png</texturenofocus>
+				<bordertexture border="5">nofocado.png</bordertexture>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>font13</font>
+				<textcolor>gold</textcolor>
+				<label>OK Compreendi!</label>
+				<visible>Control.IsVisible(9999)</visible>
+			</control>
+		</control>
+    </controls>
+</window>

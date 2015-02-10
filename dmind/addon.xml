@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="dmind" name="dmind repository" version="1" provider-name="siouka">
+	<extension point="xbmc.addon.repository" name="Siouka Add-on Repository">
+		<info compressed="false">http://raw.github.com/siouka/dmind/master/addons.xml</info>
+		<checksum>http://raw.github.com/siouka/dmind/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/siouka/dmind/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Siouka All-In-One Addon</summary>
+		<description>Addon Description</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>

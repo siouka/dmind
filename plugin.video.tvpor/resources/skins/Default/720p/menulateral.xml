@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window type="dialog">
+	<allowoverlay>yes</allowoverlay>
+	<include>dialogeffect</include>
+	<defaultcontrol always="false">4001</defaultcontrol>
+	<visible>Window.IsActive(videoosd)</visible>
+	<coordinates>
+		<system>1</system>
+		<posx>960</posx>
+		<posy>20</posy>
+	</coordinates>
+    <controls>	
+        <!-- fundo com gravar -->
+		<control type="image">
+            <posx>0</posx>
+            <posy>70</posy>
+            <width>270</width>
+            <height>410</height>
+            <texture>lateral-fundo.png</texture>
+			<visible>[System.Platform.Windows | System.Platform.Linux | System.Platform.Osx]</visible>
+        </control>
+		
+		<!-- fundo sem gravar -->
+		<control type="image">
+            <posx>0</posx>
+            <posy>70</posy>
+            <width>270</width>
+            <height>370</height>
+            <texture>lateral-fundo.png</texture>
+			<visible>![System.Platform.Windows | System.Platform.Linux | System.Platform.Osx]</visible>
+        </control>
+		
+        <!-- botao trocar server -->
+		<control type="button" id="4001">
+            <posx>15</posx>
+            <posy>380</posy>
+            <width>240</width>
+            <height>40</height>
+            <texturefocus>lateral-programa-seleccionado.png</texturefocus>
+			<onup>6000</onup>
+			<onleft>4306</onleft>
+			<ondown>40010</ondown>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>gold</textcolor>
+            <label>Trocar servidor</label>
+        </control>
+		
+		<!-- botao gravar -->
+        <control type="button" id="40010">
+            <posx>15</posx>
+            <posy>420</posy>
+            <width>240</width>
+            <height>40</height>
+            <texturefocus>lateral-programa-seleccionado.png</texturefocus>
+			<onup>4001</onup>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>gold</textcolor>
+            <label>Gravar Canal</label>
+			<visible>[System.Platform.Windows | System.Platform.Linux | System.Platform.Osx]</visible>
+        </control>
+
+		<!-- titulo -->
+		<control type="label">
+			<description>Lista de Canais</description>
+			<posx>0</posx>
+			<posy>90</posy>
+			<width>200</width>
+			<height>20</height>
+			<label>[B]Lista de Canais[/B]</label>
+			<font>font13</font>
+			<align>center</align>
+			<textcolor>FF009CFF</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>
+		
+		
+		<!-- botao stop -->
+		<control type="button" id="203">
+			<posx>213</posx>
+			<posy>79</posy>
+			<width>45</width>
+			<height>45</height>
+			<label>STOP</label>
+			<font>-</font>
+			<ondown>6000</ondown>
+			<texturefocus>lateral-fechar-seleccionado.png</texturefocus>
+			<texturenofocus>lateral-fechar.png</texturenofocus>
+			<!--<onclick>PlayerControl(Stop)</onclick>-->
+		</control>
+
+		<!-- separador superior -->
+		<control type="image">
+			<description>separator</description>
+			<posx>0</posx>
+			<posy>129</posy>
+			<width>270</width>
+			<height>1</height>
+			<texture>lateral-separador.png</texture>
+			<colordiffuse>DDFFFFFF</colordiffuse>
+		</control>
+
+		<!-- separador inferior -->
+		<control type="image">
+			<description>separator</description>
+			<posx>0</posx>
+			<posy>365</posy>
+			<width>270</width>
+			<height>1</height>
+			<texture>lateral-separador.png</texture>
+			<colordiffuse>DDFFFFFF</colordiffuse>
+		</control>
+		
+		
+		<!-- combolist -->
+        <control type="fixedlist" id="6000">
+            <posx>20</posx>
+            <posy>150</posy>
+            <width>520</width>
+            <height>200</height>
+            <viewtype label="list">list</viewtype>
+            <orientation>vertical</orientation>
+            <focusposition>0</focusposition>
+            <onup>203</onup>
+			<onleft>203</onleft>
+			<onright>4001</onright>
+			<ondown>4001</ondown>
+            <itemlayout width="480" height="40">
+                <control type="image">
+                    <posx>0</posx>
+                    <posy>0</posy>
+                    <width>240</width>
+                    <height>38</height>
+                </control>
+                <control type="label">
+                    <posx>0</posx><!--16-->
+                    <posy>0</posy>
+                    <width>230</width>
+                    <height>38</height>
+                    <aligny>center</aligny>
+                    <font>font13</font>
+                    <textcolor>ffffffff</textcolor>
+                    <info>ListItem.Label</info>
+                </control>
+                <control type="image">
+                    <posx>250</posx>
+                    <posy>0</posy>
+                    <width>40</width>
+                    <height>40</height>
+                    <info>ListItem.Icon</info>
+                </control>
+            </itemlayout>
+            <focusedlayout width="480" height="40">
+                <control type="image">
+                    <posx>0</posx>
+                    <posy>0</posy>
+                    <width>225</width>
+                    <height>38</height>
+                    <texture>lateral-programa-seleccionado.png</texture>
+                    <visible>Control.HasFocus(6000)</visible>
+                </control>
+                <control type="image">
+                    <posx>8</posx>
+                    <posy>0</posy>
+                    <width>12</width>
+                    <height>40</height>
+                </control>
+                <control type="label">
+                    <posx>0</posx><!--16-->
+                    <posy>0</posy>
+                    <width>210</width>
+                    <height>38</height>
+                    <aligny>center</aligny>
+                    <font>font13</font>
+                    <textcolor>ffffffff</textcolor>
+                    <label>[B]$INFO[ListItem.Label][/B]</label>
+                </control>
+                <control type="image">
+                    <posx>250</posx>
+                    <posy>0</posy>
+                    <width>40</width>
+                    <height>40</height>
+                    <info>ListItem.Icon</info>
+                </control>
+            </focusedlayout>
+        </control>
+	
+    </controls>
+</window>

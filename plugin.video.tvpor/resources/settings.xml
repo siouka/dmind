@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+   <category label="Geral">
+      <setting id="horaportuguesa" type="bool" label="Aparelho está na hora portuguesa" default="true"/>
+	  <setting id="timezone2" type="enum" values="Africa/Abidjan|Africa/Accra|Africa/Addis_Ababa|Africa/Algiers|Africa/Asmara|Africa/Asmera|Africa/Bamako|Africa/Bangui|Africa/Banjul|Africa/Bissau|Africa/Blantyre|Africa/Brazzaville|Africa/Bujumbura|Africa/Cairo|Africa/Casablanca|Africa/Ceuta|Africa/Conakry|Africa/Dakar|Africa/Dar_es_Salaam|Africa/Djibouti|Africa/Douala|Africa/El_Aaiun|Africa/Freetown|Africa/Gaborone|Africa/Harare|Africa/Johannesburg|Africa/Juba|Africa/Kampala|Africa/Khartoum|Africa/Kigali|Africa/Kinshasa|Africa/Lagos|Africa/Libreville|Africa/Lome|Africa/Luanda|Africa/Lubumbashi|Africa/Lusaka|Africa/Malabo|Africa/Maputo|Africa/Maseru|Africa/Mbabane|Africa/Mogadishu|Africa/Monrovia|Africa/Nairobi|Africa/Ndjamena|Africa/Niamey|Africa/Nouakchott|Africa/Ouagadougou|Africa/Porto-Novo|Africa/Sao_Tome|Africa/Timbuktu|Africa/Tripoli|Africa/Tunis|Africa/Windhoek|America/Adak|America/Anchorage|America/Anguilla|America/Antigua|America/Araguaina|America/Argentina/Buenos_Aires|America/Argentina/Catamarca|America/Argentina/ComodRivadavia|America/Argentina/Cordoba|America/Argentina/Jujuy|America/Argentina/La_Rioja|America/Argentina/Mendoza|America/Argentina/Rio_Gallegos|America/Argentina/Salta|America/Argentina/San_Juan|America/Argentina/San_Luis|America/Argentina/Tucuman|America/Argentina/Ushuaia|America/Aruba|America/Asuncion|America/Atikokan|America/Atka|America/Bahia|America/Bahia_Banderas|America/Barbados|America/Belem|America/Belize|America/Blanc-Sablon|America/Boa_Vista|America/Bogota|America/Boise|America/Buenos_Aires|America/Cambridge_Bay|America/Campo_Grande|America/Cancun|America/Caracas|America/Catamarca|America/Cayenne|America/Cayman|America/Chicago|America/Chihuahua|America/Coral_Harbour|America/Cordoba|America/Costa_Rica|America/Creston|America/Cuiaba|America/Curacao|America/Danmarkshavn|America/Dawson|America/Dawson_Creek|America/Denver|America/Detroit|America/Dominica|America/Edmonton|America/Eirunepe|America/El_Salvador|America/Ensenada|America/Fort_Wayne|America/Fortaleza|America/Glace_Bay|America/Godthab|America/Goose_Bay|America/Grand_Turk|America/Grenada|America/Guadeloupe|America/Guatemala|America/Guayaquil|America/Guyana|America/Halifax|America/Havana|America/Hermosillo|America/Indiana/Indianapolis|America/Indiana/Knox|America/Indiana/Marengo|America/Indiana/Petersburg|America/Indiana/Tell_City|America/Indiana/Vevay|America/Indiana/Vincennes|America/Indiana/Winamac|America/Indianapolis|America/Inuvik|America/Iqaluit|America/Jamaica|America/Jujuy|America/Juneau|America/Kentucky/Louisville|America/Kentucky/Monticello|America/Knox_IN|America/Kralendijk|America/La_Paz|America/Lima|America/Los_Angeles|America/Louisville|America/Lower_Princes|America/Maceio|America/Managua|America/Manaus|America/Marigot|America/Martinique|America/Matamoros|America/Mazatlan|America/Mendoza|America/Menominee|America/Merida|America/Metlakatla|America/Mexico_City|America/Miquelon|America/Moncton|America/Monterrey|America/Montevideo|America/Montreal|America/Montserrat|America/Nassau|America/New_York|America/Nipigon|America/Nome|America/Noronha|America/North_Dakota/Beulah|America/North_Dakota/Center|America/North_Dakota/New_Salem|America/Ojinaga|America/Panama|America/Pangnirtung|America/Paramaribo|America/Phoenix|America/Port-au-Prince|America/Port_of_Spain|America/Porto_Acre|America/Porto_Velho|America/Puerto_Rico|America/Rainy_River|America/Rankin_Inlet|America/Recife|America/Regina|America/Resolute|America/Rio_Branco|America/Rosario|America/Santa_Isabel|America/Santarem|America/Santiago|America/Santo_Domingo|America/Sao_Paulo|America/Scoresbysund|America/Shiprock|America/Sitka|America/St_Barthelemy|America/St_Johns|America/St_Kitts|America/St_Lucia|America/St_Thomas|America/St_Vincent|America/Swift_Current|America/Tegucigalpa|America/Thule|America/Thunder_Bay|America/Tijuana|America/Toronto|America/Tortola|America/Vancouver|America/Virgin|America/Whitehorse|America/Winnipeg|America/Yakutat|America/Yellowknife|Antarctica/Casey|Antarctica/Davis|Antarctica/DumontDUrville|Antarctica/Macquarie|Antarctica/Mawson|Antarctica/McMurdo|Antarctica/Palmer|Antarctica/Rothera|Antarctica/South_Pole|Antarctica/Syowa|Antarctica/Troll|Antarctica/Vostok|Arctic/Longyearbyen|Asia/Aden|Asia/Almaty|Asia/Amman|Asia/Anadyr|Asia/Aqtau|Asia/Aqtobe|Asia/Ashgabat|Asia/Ashkhabad|Asia/Baghdad|Asia/Bahrain|Asia/Baku|Asia/Bangkok|Asia/Beirut|Asia/Bishkek|Asia/Brunei|Asia/Calcutta|Asia/Choibalsan|Asia/Chongqing|Asia/Chungking|Asia/Colombo|Asia/Dacca|Asia/Damascus|Asia/Dhaka|Asia/Dili|Asia/Dubai|Asia/Dushanbe|Asia/Gaza|Asia/Harbin|Asia/Hebron|Asia/Ho_Chi_Minh|Asia/Hong_Kong|Asia/Hovd|Asia/Irkutsk|Asia/Istanbul|Asia/Jakarta|Asia/Jayapura|Asia/Jerusalem|Asia/Kabul|Asia/Kamchatka|Asia/Karachi|Asia/Kashgar|Asia/Kathmandu|Asia/Katmandu|Asia/Khandyga|Asia/Kolkata|Asia/Krasnoyarsk|Asia/Kuala_Lumpur|Asia/Kuching|Asia/Kuwait|Asia/Macao|Asia/Macau|Asia/Magadan|Asia/Makassar|Asia/Manila|Asia/Muscat|Asia/Nicosia|Asia/Novokuznetsk|Asia/Novosibirsk|Asia/Omsk|Asia/Oral|Asia/Phnom_Penh|Asia/Pontianak|Asia/Pyongyang|Asia/Qatar|Asia/Qyzylorda|Asia/Rangoon|Asia/Riyadh|Asia/Saigon|Asia/Sakhalin|Asia/Samarkand|Asia/Seoul|Asia/Shanghai|Asia/Singapore|Asia/Taipei|Asia/Tashkent|Asia/Tbilisi|Asia/Tehran|Asia/Tel_Aviv|Asia/Thimbu|Asia/Thimphu|Asia/Tokyo|Asia/Ujung_Pandang|Asia/Ulaanbaatar|Asia/Ulan_Bator|Asia/Urumqi|Asia/Ust-Nera|Asia/Vientiane|Asia/Vladivostok|Asia/Yakutsk|Asia/Yekaterinburg|Asia/Yerevan|Atlantic/Azores|Atlantic/Bermuda|Atlantic/Canary|Atlantic/Cape_Verde|Atlantic/Faeroe|Atlantic/Faroe|Atlantic/Jan_Mayen|Atlantic/Madeira|Atlantic/Reykjavik|Atlantic/South_Georgia|Atlantic/St_Helena|Atlantic/Stanley|Australia/ACT|Australia/Adelaide|Australia/Brisbane|Australia/Broken_Hill|Australia/Canberra|Australia/Currie|Australia/Darwin|Australia/Eucla|Australia/Hobart|Australia/LHI|Australia/Lindeman|Australia/Lord_Howe|Australia/Melbourne|Australia/NSW|Australia/North|Australia/Perth|Australia/Queensland|Australia/South|Australia/Sydney|Australia/Tasmania|Australia/Victoria|Australia/West|Australia/Yancowinna|Brazil/Acre|Brazil/DeNoronha|Brazil/East|Brazil/West|CET|CST6CDT|Canada/Atlantic|Canada/Central|Canada/East-Saskatchewan|Canada/Eastern|Canada/Mountain|Canada/Newfoundland|Canada/Pacific|Canada/Saskatchewan|Canada/Yukon|Chile/Continental|Chile/EasterIsland|Cuba|EET|EST|EST5EDT|Egypt|Eire|Etc/GMT|Etc/GMT+0|Etc/GMT+1|Etc/GMT+10|Etc/GMT+11|Etc/GMT+12|Etc/GMT+2|Etc/GMT+3|Etc/GMT+4|Etc/GMT+5|Etc/GMT+6|Etc/GMT+7|Etc/GMT+8|Etc/GMT+9|Etc/GMT-0|Etc/GMT-1|Etc/GMT-10|Etc/GMT-11|Etc/GMT-12|Etc/GMT-13|Etc/GMT-14|Etc/GMT-2|Etc/GMT-3|Etc/GMT-4|Etc/GMT-5|Etc/GMT-6|Etc/GMT-7|Etc/GMT-8|Etc/GMT-9|Etc/GMT0|Etc/Greenwich|Etc/UCT|Etc/UTC|Etc/Universal|Etc/Zulu|Europe/Amsterdam|Europe/Andorra|Europe/Athens|Europe/Belfast|Europe/Belgrade|Europe/Berlin|Europe/Bratislava|Europe/Brussels|Europe/Bucharest|Europe/Budapest|Europe/Busingen|Europe/Chisinau|Europe/Copenhagen|Europe/Dublin|Europe/Gibraltar|Europe/Guernsey|Europe/Helsinki|Europe/Isle_of_Man|Europe/Istanbul|Europe/Jersey|Europe/Kaliningrad|Europe/Kiev|Europe/Lisbon|Europe/Ljubljana|Europe/London|Europe/Luxembourg|Europe/Madrid|Europe/Malta|Europe/Mariehamn|Europe/Minsk|Europe/Monaco|Europe/Moscow|Europe/Nicosia|Europe/Oslo|Europe/Paris|Europe/Podgorica|Europe/Prague|Europe/Riga|Europe/Rome|Europe/Samara|Europe/San_Marino|Europe/Sarajevo|Europe/Simferopol|Europe/Skopje|Europe/Sofia|Europe/Stockholm|Europe/Tallinn|Europe/Tirane|Europe/Tiraspol|Europe/Uzhgorod|Europe/Vaduz|Europe/Vatican|Europe/Vienna|Europe/Vilnius|Europe/Volgograd|Europe/Warsaw|Europe/Zagreb|Europe/Zaporozhye|Europe/Zurich|GB|GB-Eire|GMT|GMT+0|GMT-0|GMT0|Greenwich|HST|Hongkong|Iceland|Indian/Antananarivo|Indian/Chagos|Indian/Christmas|Indian/Cocos|Indian/Comoro|Indian/Kerguelen|Indian/Mahe|Indian/Maldives|Indian/Mauritius|Indian/Mayotte|Indian/Reunion|Iran|Israel|Jamaica|Japan|Kwajalein|Libya|MET|MST|MST7MDT|Mexico/BajaNorte|Mexico/BajaSur|Mexico/General|NZ|NZ-CHAT|Navajo|PRC|PST8PDT|Pacific/Apia|Pacific/Auckland|Pacific/Chatham|Pacific/Chuuk|Pacific/Easter|Pacific/Efate|Pacific/Enderbury|Pacific/Fakaofo|Pacific/Fiji|Pacific/Funafuti|Pacific/Galapagos|Pacific/Gambier|Pacific/Guadalcanal|Pacific/Guam|Pacific/Honolulu|Pacific/Johnston|Pacific/Kiritimati|Pacific/Kosrae|Pacific/Kwajalein|Pacific/Majuro|Pacific/Marquesas|Pacific/Midway|Pacific/Nauru|Pacific/Niue|Pacific/Norfolk|Pacific/Noumea|Pacific/Pago_Pago|Pacific/Palau|Pacific/Pitcairn|Pacific/Pohnpei|Pacific/Ponape|Pacific/Port_Moresby|Pacific/Rarotonga|Pacific/Saipan|Pacific/Samoa|Pacific/Tahiti|Pacific/Tarawa|Pacific/Tongatapu|Pacific/Truk|Pacific/Wake|Pacific/Wallis|Pacific/Yap|Poland|Portugal|ROC|ROK|Singapore|Turkey|UCT|US/Alaska|US/Aleutian|US/Arizona|US/Central|US/East-Indiana|US/Eastern|US/Hawaii|US/Indiana-Starke|US/Michigan|US/Mountain|US/Pacific|US/Pacific-New|US/Samoa|UTC|Universal|W-SU|WET|Zulu" label="Fuso Horário do Sistema (acerta programação)" default="437" enable="!eq(-1,true)"/>
+      <setting id="playertype" type="enum" values="Auto (recomendado)|MPlayer|DVDPlayer|PAPlayer" label="Tipo de Player" default="0"/>
+      <setting id="prog-lista3" type="bool" label="Programacao na lista de canais" default="true"/>
+      <setting id="listasextra" type="bool" label="Carregar listas extra" default="false"/>
+      <setting id="rtmp-lib0001" type="bool" label="Desactivar aviso libRTMP no arranque [COLOR red](passo fundamental para os canais funcionarem!)[/COLOR]" default="false"/>
+      <setting id="mensagemgratis3" type="bool" label="Desactivar aviso libRTMP no arranque [COLOR red](passo fundamental para os canais funcionarem!)[/COLOR]" default="true" visible="false"/>
+      <setting id="listacanais2" type="bool" label="Activar lista de canais no Player" default="false"/>
+      <setting id="verif-veetle3" type="bool" label="Tenho o Veetle v0.3.1 instalado no XBMC" default="false"/>
+      <setting id="abrirlogolista-botao" type="bool" label="   Mostrar botao para voltar ao menu principal" default="true" enable="!eq(-1,false)" visible="false"/>
+      <setting id="ga_time" type="text" label="GA Called" default="2000-01-01 00:00:00" visible="false"/>
+      <setting id="ga_visitor" type="text" label="GA visitor" default="" visible="false"/>
+      <setting id="termos" type="bool" label="Aceitar termos" default="true" visible="false"/>
+   </category>
+   <category label="Fontes">
+      <setting id="fontes-canalhd" type="bool" label="CanalHD.tv" default="true"/>
+      <setting id="fontes-desportogratis" type="bool" label="Desporto Gratis" default="true"/>
+      <setting id="fontes-livesoccerhd" type="bool" label="Livesoccer HD" default="true" visible="false"/>
+      <setting id="fontes-meocanaltv" type="bool" label="MEOCanal TV" default="true"/>
+      <setting id="fontes-redwebtv" type="bool" label="RedWeb.tv" default="true" visible="false"/>
+      <setting id="fontes-rtpplay" type="bool" label="RTP Play" default="true"/>
+      <setting id="fontes-thesporttveu" type="bool" label="Thesporttv.eu" default="true" visible="false"/>
+      <setting id="fontes-tugastream" type="bool" label="Tugastream" default="true"/>
+      <setting id="fontes-tvacores" type="bool" label="TV a Cores" default="true"/>
+      <setting id="fontes-tvdez" type="bool" label="TVDez" default="true"/>
+      <setting id="fontes-tvgente" type="bool" label="TV Gente" default="true"/>
+      <setting id="fontes-tvtuga" type="bool" label="TVTuga" default="true"/>
+      <setting id="fontes-tvzune2" type="bool" label="TVZune" default="false" visible="false"/>
+      <setting id="fontes-tvpthdorg" type="bool" label="TV Portugal HD" default="true" visible="false"/>
+   </category>
+   <category label="Canais">
+      <setting id="vistacanais" type="enum" label="Tipo de vista dos canais" values="Miniatura|Guia TV|Lista|Lista Grande" default="0"/>
+      <setting id="replaytv" type="bool" label="[B]Replay TV[/B]" default="true"/>
+      <setting id="listas-pessoais" type="bool" label="[B]Listas Pessoais[/B]" default="true"/>
+      <setting id="alterarvista" type="bool" label="[B]Alterar Vista[/B]" default="true" visible="false"/>
+      <setting id="gravacoes" type="bool" label="[B]Gravacoes[/B]" default="true"/>
+      <setting id="eventos" type="bool" label="[B]Eventos[/B]" default="true"/>
+      <setting id="radios" type="bool" label="[B]Radios[/B]" default="true"/>
+      <setting id="sportsdevil" type="bool" label="[B]SportsDevil[/B]" default="true" visible="false"/>
+      <setting id="praias" type="bool" label="[B]Praias[/B]" default="true"/>
+      <setting id="canais-abolatv" type="bool" label="A Bola TV" default="true"/>
+      <setting id="canais-artv" type="bool" label="ARTV" default="true"/>
+      <setting id="canais-axn" type="bool" label="AXN" default="true"/>
+      <setting id="canais-axnblack" type="bool" label="AXN Black" default="true"/>
+      <setting id="canais-axnwhite" type="bool" label="AXN White" default="true"/>
+      <setting id="canais-btv1" type="bool" label="Benfica TV 1" default="true"/>
+      <setting id="canais-btv2" type="bool" label="Benfica TV 2" default="true"/>
+      <setting id="canais-cacapesca" type="bool" label="Caca e Pesca" default="true"/>
+      <setting id="canais-cpanda" type="bool" label="Canal Panda" default="true"/>
+      <setting id="canais-ss5" type="bool" label="Casa dos Segredos 5" default="true"/>
+      <setting id="canais-chelsea" type="bool" label="Chelsea TV" default="true"/>
+      <setting id="canais-cmtv" type="bool" label="CM TV" default="true"/>
+      <setting id="canais-discovery" type="bool" label="Discovery Channel" default="true"/>
+      <setting id="canais-discturbo" type="bool" label="Discovery Turbo" default="true"/>
+      <setting id="canais-disney" type="bool" label="Disney Channel" default="true"/>
+      <setting id="canais-disneyj" type="bool" label="Disney Junior" default="true"/>
+      <setting id="canais-djingtv" type="bool" label="DJing TV" default="true"/>
+      <setting id="canais-economico" type="bool" label="Economico TV" default="true"/>
+      <setting id="canais-espn" type="bool" label="ESPN" default="true"/>
+      <setting id="canais-euronews" type="bool" label="Euronews" default="true"/>
+      <setting id="canais-eurosport" type="bool" label="Eurosport" default="true"/>
+      <setting id="canais-eurosport2" type="bool" label="Eurosport 2" default="true"/>
+      <setting id="canais-fashion" type="bool" label="Fashion TV" default="true"/>
+      <setting id="canais-fox" type="bool" label="FOX" default="true"/>
+      <setting id="canais-foxcrime" type="bool" label="FOX Crime" default="true"/>
+      <setting id="canais-foxlife" type="bool" label="FOX Life" default="true"/>
+      <setting id="canais-foxmovies" type="bool" label="FOX Movies" default="true"/>
+      <setting id="canais-historia" type="bool" label="Historia" default="true"/>
+      <setting id="canais-hollywood" type="bool" label="Hollywood" default="true"/>
+      <setting id="canais-maistvi" type="bool" label="Mais TVI" default="true"/>
+      <setting id="canais-motors" type="bool" label="Motors TV" default="true"/>
+      <setting id="canais-mov" type="bool" label="MOV" default="true"/>
+      <setting id="canais-mtv" type="bool" label="MTV" default="true"/>
+      <setting id="canais-ngc" type="bool" label="National Geographic Channel" default="true"/>
+      <setting id="canais-odisseia" type="bool" label="Odisseia" default="true"/>
+      <setting id="canais-pbiggs" type="bool" label="Panda Biggs" default="true"/>
+      <setting id="canais-portocanal" type="bool" label="Porto Canal" default="true"/>
+      <setting id="canais-rtp1" type="bool" label="RTP1" default="true"/>
+      <setting id="canais-rtp2" type="bool" label="RTP2" default="true"/>
+      <setting id="canais-rtpac" type="bool" label="RTP Acores" default="true"/>
+      <setting id="canais-rtpaf" type="bool" label="RTP Africa" default="true"/>
+      <setting id="canais-rtpi" type="bool" label="RTP Informacao" default="true"/>
+      <setting id="canais-rtpint" type="bool" label="RTP Internacional" default="true"/>
+      <setting id="canais-rtpmad" type="bool" label="RTP Madeira" default="true"/>
+      <setting id="canais-rtpmem" type="bool" label="RTP Memoria" default="true"/>
+      <setting id="canais-sic" type="bool" label="SIC" default="true"/>
+      <setting id="canais-sick" type="bool" label="SIC K" default="true"/>
+      <setting id="canais-sicmulher" type="bool" label="SIC Mulher" default="true"/>
+      <setting id="canais-sicnoticias" type="bool" label="SIC Noticias" default="true"/>
+      <setting id="canais-sicradical" type="bool" label="SIC Radical" default="true"/>
+      <setting id="canais-sportingtv" type="bool" label="Sporting TV" default="true"/>
+      <setting id="canais-sporttv1" type="bool" label="SPORTTV 1" default="true"/>
+      <setting id="canais-sporttv2" type="bool" label="SPORTTV 2" default="true"/>
+      <setting id="canais-sporttv3" type="bool" label="SPORTTV 3" default="true"/>
+      <setting id="canais-sporttv4" type="bool" label="SPORTTV 4" default="true"/>
+      <setting id="canais-sporttv5" type="bool" label="SPORTTV 5" default="true"/>
+      <setting id="canais-sporttvlive" type="bool" label="SPORTTV LIVE" default="true" visible="false"/>
+      <setting id="canais-syfy" type="bool" label="Syfy" default="true"/>
+      <setting id="canais-tpai" type="bool" label="TPA Internacional" default="true"/>
+      <setting id="canais-torostv" type="bool" label="Toros TV" default="true"/>
+      <setting id="canais-traceu" type="bool" label="TRACE Urban" default="true"/>
+      <setting id="canais-tvglobo" type="bool" label="TV Globo" default="true"/>
+      <setting id="canais-tvrecord" type="bool" label="TV Record" default="true"/>
+      <setting id="canais-tvi" type="bool" label="TVI" default="true"/>
+      <setting id="canais-tvi24" type="bool" label="TVI24" default="true"/>
+      <setting id="canais-tvificcao" type="bool" label="TVI Ficcao" default="true"/>
+      <setting id="canais-vh1" type="bool" label="VH1" default="true"/>
+      <setting id="canais-virginrtv" type="bool" label="Virgin Radio TV" default="true"/>
+   </category>
+   <category label="Gravador" visible="!System.Platform.Windows">
+      <setting label="[COLOR red][B]Nao compativel com este sistema.[/B][/COLOR]" visible="System.Platform.Ios" type="lsep" /> 
+      <setting label="[COLOR red][B]Nao compativel com este sistema.[/B][/COLOR]" visible="System.Platform.Android" type="lsep" /> 
+      <setting label="[COLOR red][B]Nao compativel com este sistema.[/B][/COLOR]" visible="System.Platform.Atv2" type="lsep" /> 
+      <setting id="pastagravador" type="folder" label="Pasta para Gravacoes" default=""/>
+      <setting id="acrescentogravacao" type="enum" values="No fim do Programa|2 min depois|5 min depois|10 min depois" label="Parar gravacao" default="1"/>
+      <setting id="rtmpdumpalternativo" type="file" label="Utilizar gravador alternativo (rtmpdump)" default=""/>
+   </category>
+</settings>

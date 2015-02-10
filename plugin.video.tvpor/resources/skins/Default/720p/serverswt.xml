@@ -1,0 +1,105 @@
+<window>
+    <defaultcontrol always="true">500</defaultcontrol>
+    <allowoverlay>no</allowoverlay>
+	<include>dialogeffect</include>
+
+    <!--<backgroundcolor>ff000000</backgroundcolor>-->
+
+
+    
+    <controls>
+		<control type="group">
+			<visible>true</visible>
+			<control type="image">
+				<posx>180</posx>
+				<posy>70</posy>
+				<width>900</width><!--710-->
+				<height>470</height>
+				<texture>lateral-fundo.png</texture>
+			</control>
+			<control type="panel" id="500">
+				<posx>250</posx><!--90-->
+				<posy>138</posy>
+				<width>1200</width><!--1080-->
+				<height>485</height>
+				<onleft>2</onleft>
+				<onright>60</onright>
+				<onup>801</onup>
+				<align>center</align>
+				<viewtype label="21371">list</viewtype>
+				<pagecontrol>60</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<preloaditems>2</preloaditems>
+				<itemlayout height="258" width="258">
+					<control type="image">
+						<posx>1</posx>
+						<posy>0</posy>
+						<width>256</width>
+						<height>256</height>
+						<bordertexture border="5">button-nofocus.png</bordertexture>
+						<bordersize>5</bordersize>
+						<texture background="true">$INFO[Listitem.Icon]</texture>
+					</control>
+				</itemlayout>
+
+				
+				<focusedlayout height="258" width="258">
+					<control type="image">
+						<posx>1</posx>
+						<posy>0</posy>
+						<width>256</width>
+						<height>256</height>
+						<bordertexture border="5">folder-focus.png</bordertexture>
+						<bordersize>5</bordersize>
+						<texture background="true">$INFO[Listitem.Icon]</texture>
+					</control>
+				</focusedlayout>
+			</control>
+		</control>
+		
+		<control type="label" id="800">
+			<description>Info do Video</description>
+			<posx>180</posx>
+			<posy>450</posy>
+			<width>900</width>
+			<height>20</height>
+			<label></label>
+			<font>font13</font>
+			<align>center</align>
+			<textcolor>white</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+		</control>
+
+		<control type="button" id="801">
+            <posx>1020</posx>
+            <posy>80</posy>
+            <width>48</width>
+            <height>48</height>
+            <texturefocus>lateral-fechar-seleccionado.png</texturefocus>
+			<texturenofocus>lateral-fechar.png</texturenofocus>
+			<onup>6000</onup>
+			<onleft>4306</onleft>
+			<ondown>500</ondown>
+            <align>left</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>gold</textcolor>
+            <label></label>
+			<visible>true</visible>
+        </control>
+		<control type="label" id="802">
+			<description>Sem Servidores</description>
+			<posx>180</posx>
+			<posy>250</posy>
+			<width>900</width>
+			<height>20</height>
+			<label>[B][COLOR white]$ADDON[plugin.video.wt 40191][/COLOR][/B]</label>
+			<font>font13</font>
+			<align>center</align>
+			<textcolor>white</textcolor>
+			<shadowcolor>AA000000</shadowcolor>
+			
+		</control>		
+		
+    </controls>
+</window>

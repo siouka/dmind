@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="dmind" name="dmind repository" version="1" provider-name="siouka">
+	<extension point="xbmc.addon.repository" name="Siouka Add-on Repository">
+		<info compressed="false">http://raw.github.com/siouka/dmind/master/addons.xml</info>
+		<checksum>http://raw.github.com/siouka/dmind/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/siouka/dmind/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Siouka All-In-One Addon</summary>
+		<description>Addon Description</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.tvpor"
+       name="TV Portuguesa"
+       version="0.4.01"
+       provider-name="fightnight">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver"  version="1.0.5"/>
+
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Ver canais de TV portugueses e radios no XBMC</summary>
+        <description>Ve os teus canais portugueses favoritos e ouve radios no XBMC.
+
+Visita os sites oficiais.
+www.desportogratis.com, www.rtp.pt, www.tugastream.com, www.tvfree.me, www.tvgente.eu, www.tvdez.com</description>
+        <disclaimer>O autor deste addon NAO e responsavel pelo conteudo dos streams.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
