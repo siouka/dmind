@@ -36,6 +36,21 @@
     </extension>
 </addon>
 
+	<addon id="plugin.video.beeg.com" name="beeg.com  (Adult) - Powered by XBMCHUB.COM" version="1.0.5" provider-name="MisterX">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="Default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">beeg.com (Adult)</summary>
+			<description lang="en">beeg.com (Adult) - Powered by XBMCHUB.COM</description>
+			<license>GPL 3.0</license>
+			<platform>all</platform>
+		</extension>
+	</addon>
+
 <addon id="plugin.video.football.today" name="Football Today" version="3.0.0" provider-name="lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -259,5 +274,35 @@ Twitter: twitter.com/xbmctorrent
 Facebook: facebook.com/xbmctorrent
 XBMC HUB: j.mp/xbmctorrent]]></description>
     </extension>
+</addon>
+
+<addon id="script.navi-x"
+       name="Navi-X"
+       version="4.0"
+       provider-name="Team Navi-X and TVADDONS.ag">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.urlresolver"  />
+    <import addon="script.module.t0mm0.common"  />
+    <import addon="script.module.addon.common" optional="false" />
+    <import addon="repository.xbmchub" optional="true" />
+    <import addon="plugin.video.youtube" optional="false" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py" >
+    <provides>executable video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>28764</minversion>
+    <summary>Media Browser Addon for Kodi</summary>
+    <description>Navi-X is the oldest and most trusted add-on for Kodi, used by millions of people worldwide. You'll find everything from live television to your favourite movies and television shows, easily accessible.</description>
+    <disclaimer>http://www.navixtreme.com/terms/</disclaimer>
+    <forum>http://forums.tvaddons.ag/forums/38-NAVI-X-MEDIA-BROWSER-FOR-KODI</forum>
+    <website>http://www.navixtreme.com/</website>
+    <source></source>
+    <email></email>
+  </extension>
 </addon>
 </addons>
